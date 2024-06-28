@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
+// sets up player movement
 public class PlayerMovement : MonoBehaviour
 {
     [SerializeField] Rigidbody2D playerRB2D; //the players rigid body
