@@ -11,7 +11,7 @@ TagManager:
   - 
   - Water
   - UI
-  - Tilemap
+  - Walls
   - 
   - 
   - 
@@ -40,4 +40,16 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Floor
+    uniqueID: 3142489245
+    locked: 0
+  - name: Walls
+    uniqueID: 620057225
+    locked: 0
+  - name: Enemies
+    uniqueID: 3362850689
+    locked: 0
+  - name: Player
+    uniqueID: 4124801851
     locked: 0

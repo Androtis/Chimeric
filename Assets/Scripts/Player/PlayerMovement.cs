@@ -22,4 +22,13 @@ public class PlayerMovement : MonoBehaviour
     public void OnShoot(InputValue shootPress){
 
     }
+
+    public void OnPause(){
+        var pause = FindObjectOfType<PauseMenu>();
+        if (pause.isActiveAndEnabled){
+            pause.IsPause(true);
+        } else {
+            pause.IsPause(false);
+        }
+    }
 }
